@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "theyogidudecontacts",
+  "info": {
+    "name": "theyogidudecontact",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "message": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

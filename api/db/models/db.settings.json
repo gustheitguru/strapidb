@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "dbs",
+  "info": {
+    "name": "db"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "message": {
+      "type": "text"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

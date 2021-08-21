@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/theyogidudecontacts",
+      "handler": "theyogidudecontact.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/theyogidudecontacts/count",
+      "handler": "theyogidudecontact.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/theyogidudecontacts/:id",
+      "handler": "theyogidudecontact.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/theyogidudecontacts",
+      "handler": "theyogidudecontact.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/theyogidudecontacts/:id",
+      "handler": "theyogidudecontact.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/theyogidudecontacts/:id",
+      "handler": "theyogidudecontact.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

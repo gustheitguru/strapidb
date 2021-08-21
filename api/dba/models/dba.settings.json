@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dba",
+  "info": {
+    "name": "dba"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NAme": {
+      "type": "string"
+    }
+  }
+}
